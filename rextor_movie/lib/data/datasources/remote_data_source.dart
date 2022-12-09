@@ -31,7 +31,7 @@ abstract class RemoteDataSource {
 //movie
 class RemoteDataSourceImpl implements RemoteDataSource {
   static const API_KEY = 'api_key=2174d146bb9c0eab47529b2e77d6b526';
-  static const BASE_URL = 'https://www.google.com/';
+  static const BASE_URL = 'https://api.themoviedb.org/3';
 
   final http.Client client;
 
