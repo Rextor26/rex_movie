@@ -1,6 +1,6 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:rextor_movie/domain/entities/series/season.dart';
+import 'package:rextor/domain/entities/series/season.dart';
 import 'package:equatable/equatable.dart';
 
 class SeasonModel extends Equatable {

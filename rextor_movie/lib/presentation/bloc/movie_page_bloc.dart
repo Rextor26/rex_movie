@@ -1,11 +1,11 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rextor_movie/domain/usecases/movie/get_movie_now_playing.dart';
-import 'package:rextor_movie/domain/usecases/movie/get_movie_popular.dart';
-import 'package:rextor_movie/domain/usecases/movie/get_movie_recommendations.dart';
-import 'package:rextor_movie/domain/usecases/movie/get_movie_top_rated.dart';
-import 'package:rextor_movie/domain/usecases/movie/get_movie_watchlist.dart';
-import 'package:rextor_movie/presentation/bloc/movie_page_event.dart';
-import 'package:rextor_movie/presentation/bloc/movie_page_state_management.dart';
+import 'package:rextor/domain/usecases/movie/get_movie_now_playing.dart';
+import 'package:rextor/domain/usecases/movie/get_movie_popular.dart';
+import 'package:rextor/domain/usecases/movie/get_movie_recommendations.dart';
+import 'package:rextor/domain/usecases/movie/get_movie_top_rated.dart';
+import 'package:rextor/domain/usecases/movie/get_movie_watchlist.dart';
+import 'package:rextor/presentation/bloc/movie_page_event.dart';
+import 'package:rextor/presentation/bloc/movie_page_state_management.dart';
 
 
 class MovieBloc extends Bloc<MovieEvent, MovieState> {

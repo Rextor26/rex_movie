@@ -1,4 +1,4 @@
-import 'package:rextor_movie/domain/repositories/series_repository.dart';
+import 'package:rextor/domain/repositories/series_repository.dart';
 
 class GetWatchlistStatusSeries{
   final RepositorySeries repository;

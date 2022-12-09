@@ -1,15 +1,15 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rextor_movie/domain/entities/movie/genre.dart';
-import 'package:rextor_movie/domain/entities/movie/movie_detail.dart';
-import 'package:rextor_movie/common/state_enum.dart';
+import 'package:rextor/domain/entities/movie/genre.dart';
+import 'package:rextor/domain/entities/movie/movie_detail.dart';
+import 'package:rextor/common/state_enum.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:rextor_movie/presentation/bloc/movie_detail_page_bloc.dart';
-import 'package:rextor_movie/presentation/bloc/movie_detail_page_event.dart';
-import 'package:rextor_movie/presentation/bloc/movie_detail_page_state_management.dart';
-import 'package:rextor_movie/presentation/bloc/movie_page_bloc.dart';
-import 'package:rextor_movie/presentation/bloc/movie_page_event.dart';
+import 'package:rextor/presentation/bloc/movie_detail_page_bloc.dart';
+import 'package:rextor/presentation/bloc/movie_detail_page_event.dart';
+import 'package:rextor/presentation/bloc/movie_detail_page_state_management.dart';
+import 'package:rextor/presentation/bloc/movie_page_bloc.dart';
+import 'package:rextor/presentation/bloc/movie_page_event.dart';
 
 import '../../bloc/movie_page_state_management.dart';
 

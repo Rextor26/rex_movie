@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:rextor_movie/presentation/bloc/movie_page_event.dart';
+import 'package:rextor/presentation/bloc/movie_page_event.dart';
 
 void main() {
   test('Cek if props same with the input', () {

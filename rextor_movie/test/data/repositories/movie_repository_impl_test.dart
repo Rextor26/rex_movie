@@ -1,13 +1,13 @@
 import 'dart:io';
 
 import 'package:dartz/dartz.dart';
-import 'package:rextor_movie/data/models/movie/movie_genre_model.dart';
-import 'package:rextor_movie/data/models/movie/movie_detail_model.dart';
-import 'package:rextor_movie/data/models/movie/movie_model.dart';
-import 'package:rextor_movie/data/repositories/movie_repository_impl.dart';
-import 'package:rextor_movie/common/exception.dart';
-import 'package:rextor_movie/common/failure.dart';
-import 'package:rextor_movie/domain/entities/movie/movie.dart';
+import 'package:rextor/data/models/movie/movie_genre_model.dart';
+import 'package:rextor/data/models/movie/movie_detail_model.dart';
+import 'package:rextor/data/models/movie/movie_model.dart';
+import 'package:rextor/data/repositories/movie_repository_impl.dart';
+import 'package:rextor/common/exception.dart';
+import 'package:rextor/common/failure.dart';
+import 'package:rextor/domain/entities/movie/movie.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 

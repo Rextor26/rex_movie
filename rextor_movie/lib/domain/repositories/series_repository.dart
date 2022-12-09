@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:rextor_movie/common/failure.dart';
-import 'package:rextor_movie/domain/entities/series/series.dart';
-import 'package:rextor_movie/domain/entities/series/series_detail.dart';
+import 'package:rextor/common/failure.dart';
+import 'package:rextor/domain/entities/series/series.dart';
+import 'package:rextor/domain/entities/series/series_detail.dart';
 
 abstract class RepositorySeries{
   Future<Either<Failure, SeriesDetail>> getSeriesDetail(int id);

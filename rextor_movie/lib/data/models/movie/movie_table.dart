@@ -1,5 +1,5 @@
-import 'package:rextor_movie/domain/entities/movie/movie.dart';
-import 'package:rextor_movie/domain/entities/movie/movie_detail.dart';
+import 'package:rextor/domain/entities/movie/movie.dart';
+import 'package:rextor/domain/entities/movie/movie_detail.dart';
 import 'package:equatable/equatable.dart';
 
 class MovieTable extends Equatable {

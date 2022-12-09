@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:rextor_movie/domain/entities/movie/movie.dart';
-import 'package:rextor_movie/domain/entities/movie/movie_detail.dart';
-import 'package:rextor_movie/common/failure.dart';
+import 'package:rextor/domain/entities/movie/movie.dart';
+import 'package:rextor/domain/entities/movie/movie_detail.dart';
+import 'package:rextor/common/failure.dart';
 
 abstract class MovieRepository {
   Future<Either<Failure, List<Movie>>> getNowPlayingMovies();

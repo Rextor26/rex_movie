@@ -1,6 +1,6 @@
-import 'package:rextor_movie/common/exception.dart';
-import 'package:rextor_movie/data/datasources/db/movie_database_helper.dart';
-import 'package:rextor_movie/data/models/movie/movie_table.dart';
+import 'package:rextor/common/exception.dart';
+import 'package:rextor/data/datasources/db/movie_database_helper.dart';
+import 'package:rextor/data/models/movie/movie_table.dart';
 
 abstract class MovieLocalDataSource {
   Future<String> insertWatchlist(MovieTable movie);

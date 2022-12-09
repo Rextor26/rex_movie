@@ -1,10 +1,10 @@
 import 'dart:async' as _i5;
-import 'package:rextor_movie/common/failure.dart' as _i6;
+import 'package:rextor/common/failure.dart' as _i6;
 import 'package:dartz/dartz.dart' as _i3;
 import 'package:mockito/mockito.dart' as _i1;
-import 'package:rextor_movie/domain/entities/movie/movie.dart' as _i7;
-import 'package:rextor_movie/domain/repositories/movie_repository.dart' as _i2;
-import 'package:rextor_movie/domain/usecases/movie/get_movie_now_playing.dart' as _i4;
+import 'package:rextor/domain/entities/movie/movie.dart' as _i7;
+import 'package:rextor/domain/repositories/movie_repository.dart' as _i2;
+import 'package:rextor/domain/usecases/movie/get_movie_now_playing.dart' as _i4;
 
 // ignore_for_file: type=lint
 // ignore_for_file: avoid_redundant_argument_values

@@ -1,7 +1,7 @@
 
-import 'package:rextor_movie/data/models/series/series_model.dart';
-import 'package:rextor_movie/domain/entities/series/series.dart';
-import 'package:rextor_movie/domain/entities/series/series_detail.dart';
+import 'package:rextor/data/models/series/series_model.dart';
+import 'package:rextor/domain/entities/series/series.dart';
+import 'package:rextor/domain/entities/series/series_detail.dart';
 import 'package:equatable/equatable.dart';
 
 class SeriesTable extends Equatable{

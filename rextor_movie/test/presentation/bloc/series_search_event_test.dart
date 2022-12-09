@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:rextor_movie/presentation/bloc/search_page_event.dart';
+import 'package:rextor/presentation/bloc/search_page_event.dart';
 
 
 void main() {

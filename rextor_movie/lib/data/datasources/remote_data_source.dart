@@ -1,12 +1,12 @@
 import 'dart:convert';
 
-import 'package:rextor_movie/data/models/movie/movie_detail_model.dart';
-import 'package:rextor_movie/data/models/movie/movie_model.dart';
-import 'package:rextor_movie/data/models/movie/movie_response.dart';
-import 'package:rextor_movie/common/exception.dart';
-import 'package:rextor_movie/data/models/series/series_detail_model.dart';
-import 'package:rextor_movie/data/models/series/series_model.dart';
-import 'package:rextor_movie/data/models/series/series_response.dart';
+import 'package:rextor/data/models/movie/movie_detail_model.dart';
+import 'package:rextor/data/models/movie/movie_model.dart';
+import 'package:rextor/data/models/movie/movie_response.dart';
+import 'package:rextor/common/exception.dart';
+import 'package:rextor/data/models/series/series_detail_model.dart';
+import 'package:rextor/data/models/series/series_model.dart';
+import 'package:rextor/data/models/series/series_response.dart';
 import 'package:http/http.dart' as http;
 
 abstract class RemoteDataSource {

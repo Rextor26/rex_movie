@@ -1,5 +1,5 @@
-import 'package:rextor_movie/data/models/movie/movie_model.dart';
-import 'package:rextor_movie/domain/entities/movie/movie.dart';
+import 'package:rextor/data/models/movie/movie_model.dart';
+import 'package:rextor/domain/entities/movie/movie.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

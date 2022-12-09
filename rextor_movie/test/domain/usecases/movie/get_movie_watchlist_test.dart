@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:rextor_movie/domain/usecases/movie/get_movie_watchlist.dart';
+import 'package:rextor/domain/usecases/movie/get_movie_watchlist.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 

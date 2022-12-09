@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rextor_movie/common/state_enum.dart';
-import 'package:rextor_movie/presentation/bloc/movie_page_bloc.dart';
-import 'package:rextor_movie/presentation/bloc/movie_page_event.dart';
-import 'package:rextor_movie/presentation/widgets/movie_card_list.dart';
+import 'package:rextor/common/state_enum.dart';
+import 'package:rextor/presentation/bloc/movie_page_bloc.dart';
+import 'package:rextor/presentation/bloc/movie_page_event.dart';
+import 'package:rextor/presentation/widgets/movie_card_list.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

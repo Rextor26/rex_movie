@@ -1,21 +1,21 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rextor_movie/common/state_enum.dart';
-import 'package:rextor_movie/domain/entities/movie/genre.dart';
-import 'package:rextor_movie/domain/entities/series/season.dart';
-import 'package:rextor_movie/domain/entities/series/series.dart';
-import 'package:rextor_movie/domain/entities/series/series_detail.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_remove_series_watchlist.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_detail_bloc.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_detail_event.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_detail_notifier.dart';
+import 'package:rextor/common/state_enum.dart';
+import 'package:rextor/domain/entities/movie/genre.dart';
+import 'package:rextor/domain/entities/series/season.dart';
+import 'package:rextor/domain/entities/series/series.dart';
+import 'package:rextor/domain/entities/series/series_detail.dart';
+import 'package:rextor/domain/usecases/series/get_series_remove_series_watchlist.dart';
+import 'package:rextor/presentation/bloc/series/series_detail_bloc.dart';
+import 'package:rextor/presentation/bloc/series/series_detail_event.dart';
+import 'package:rextor/presentation/bloc/series/series_detail_notifier.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:provider/provider.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_detail_state_management.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_even.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_bloc.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_state_management.dart';
+import 'package:rextor/presentation/bloc/series/series_detail_state_management.dart';
+import 'package:rextor/presentation/bloc/series/series_even.dart';
+import 'package:rextor/presentation/bloc/series/series_bloc.dart';
+import 'package:rextor/presentation/bloc/series/series_state_management.dart';
 
 class SeriesDetailPage extends StatefulWidget {
   static const initial_route = '/detai_Series';

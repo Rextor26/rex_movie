@@ -1,4 +1,4 @@
-import 'package:rextor_movie/domain/entities/movie/genre.dart';
+import 'package:rextor/domain/entities/movie/genre.dart';
 import 'package:equatable/equatable.dart';
 
 class MovieDetail extends Equatable {

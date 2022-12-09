@@ -1,6 +1,6 @@
 
 import 'package:http/http.dart' as http;
-import 'package:rextor_movie/common/sharing.dart';
+import 'package:rextor/common/sharing.dart';
 
 class HttpSSLPinning {
   static Future<http.Client> get _instance async =>

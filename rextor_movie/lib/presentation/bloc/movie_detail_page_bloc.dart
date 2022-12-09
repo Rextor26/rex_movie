@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rextor_movie/domain/usecases/movie/get_movie_remove_watchlist.dart';
-import 'package:rextor_movie/presentation/bloc/movie_detail_page_state_management.dart';
+import 'package:rextor/domain/usecases/movie/get_movie_remove_watchlist.dart';
+import 'package:rextor/presentation/bloc/movie_detail_page_state_management.dart';
 
 import '../../common/state_enum.dart';
 import '../../domain/usecases/movie/get_movie_detail.dart';

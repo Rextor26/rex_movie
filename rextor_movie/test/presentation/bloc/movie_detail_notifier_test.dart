@@ -1,17 +1,17 @@
 import 'package:bloc_test/bloc_test.dart';
-import 'package:rextor_movie/common/failure.dart';
-import 'package:rextor_movie/common/state_enum.dart';
+import 'package:rextor/common/failure.dart';
+import 'package:rextor/common/state_enum.dart';
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:rextor_movie/domain/usecases/movie/get_movie_detail.dart';
-import 'package:rextor_movie/domain/usecases/movie/get_movie_watchlist_status.dart';
-import 'package:rextor_movie/domain/usecases/movie/get_movie_remove_watchlist.dart';
-import 'package:rextor_movie/domain/usecases/movie/get_movie_save_watchlist.dart';
-import 'package:rextor_movie/presentation/bloc/movie_detail_page_bloc.dart';
-import 'package:rextor_movie/presentation/bloc/movie_detail_page_event.dart';
-import 'package:rextor_movie/presentation/bloc/movie_detail_page_state_management.dart';
+import 'package:rextor/domain/usecases/movie/get_movie_detail.dart';
+import 'package:rextor/domain/usecases/movie/get_movie_watchlist_status.dart';
+import 'package:rextor/domain/usecases/movie/get_movie_remove_watchlist.dart';
+import 'package:rextor/domain/usecases/movie/get_movie_save_watchlist.dart';
+import 'package:rextor/presentation/bloc/movie_detail_page_bloc.dart';
+import 'package:rextor/presentation/bloc/movie_detail_page_event.dart';
+import 'package:rextor/presentation/bloc/movie_detail_page_state_management.dart';
 import '../../dummy_data/dummy_objects.dart';
 import 'movie_detail_notifier_test.mocks.dart';
 

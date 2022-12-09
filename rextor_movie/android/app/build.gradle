@@ -40,7 +40,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.dicoding.rextor_movie"
+        applicationId "com.dicoding.rextor"
         minSdkVersion 19
         multiDexEnabled true
         targetSdkVersion 30

@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
-import 'package:rextor_movie/common/state_enum.dart';
-import 'package:rextor_movie/domain/entities/series/series_detail.dart';
+import 'package:rextor/common/state_enum.dart';
+import 'package:rextor/domain/entities/series/series_detail.dart';
 
 class SeriesDetailState extends Equatable {
   final SeriesDetail? tvseriesDetail;

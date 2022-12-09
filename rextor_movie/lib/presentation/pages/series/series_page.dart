@@ -1,18 +1,18 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rextor_movie/domain/entities/series/series.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_even.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_bloc.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_state_management.dart';
-import 'package:rextor_movie/presentation/pages/about_page.dart';
-import 'package:rextor_movie/presentation/pages/movie/movie_home_page.dart';
-import 'package:rextor_movie/presentation/pages/series/series_today_page.dart';
-import 'package:rextor_movie/presentation/pages/series/series_popular_page.dart';
-import 'package:rextor_movie/presentation/pages/series/series_search_page.dart';
-import 'package:rextor_movie/presentation/pages/series/series_top_rated_page.dart';
-import 'package:rextor_movie/presentation/pages/series/series_detail_page.dart';
-import 'package:rextor_movie/presentation/pages/series/series_on_air_page.dart';
-import 'package:rextor_movie/presentation/pages/series/series_watchlist_page.dart';
+import 'package:rextor/domain/entities/series/series.dart';
+import 'package:rextor/presentation/bloc/series/series_even.dart';
+import 'package:rextor/presentation/bloc/series/series_bloc.dart';
+import 'package:rextor/presentation/bloc/series/series_state_management.dart';
+import 'package:rextor/presentation/pages/about_page.dart';
+import 'package:rextor/presentation/pages/movie/movie_home_page.dart';
+import 'package:rextor/presentation/pages/series/series_today_page.dart';
+import 'package:rextor/presentation/pages/series/series_popular_page.dart';
+import 'package:rextor/presentation/pages/series/series_search_page.dart';
+import 'package:rextor/presentation/pages/series/series_top_rated_page.dart';
+import 'package:rextor/presentation/pages/series/series_detail_page.dart';
+import 'package:rextor/presentation/pages/series/series_on_air_page.dart';
+import 'package:rextor/presentation/pages/series/series_watchlist_page.dart';
 import 'package:flutter/material.dart';
 
 

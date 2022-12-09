@@ -1,4 +1,4 @@
-import 'package:rextor_movie/domain/usecases/movie/get_movie_watchlist_status.dart';
+import 'package:rextor/domain/usecases/movie/get_movie_watchlist_status.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 

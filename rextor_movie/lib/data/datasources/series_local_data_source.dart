@@ -1,6 +1,6 @@
-import 'package:rextor_movie/common/exception.dart';
-import 'package:rextor_movie/data/datasources/db/series_database_helper.dart';
-import 'package:rextor_movie/data/models/series/series_table.dart';
+import 'package:rextor/common/exception.dart';
+import 'package:rextor/data/datasources/db/series_database_helper.dart';
+import 'package:rextor/data/models/series/series_table.dart';
 
 abstract class SeriesLocalDataSource{
   Future<String> insertSeriesWatchlist(SeriesTable seriesTable);

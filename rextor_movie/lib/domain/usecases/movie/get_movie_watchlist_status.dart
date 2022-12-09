@@ -1,4 +1,4 @@
-import 'package:rextor_movie/domain/repositories/movie_repository.dart';
+import 'package:rextor/domain/repositories/movie_repository.dart';
 
 class GetWatchListStatus {
   final MovieRepository repository;

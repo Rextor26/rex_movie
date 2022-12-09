@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:rextor_movie/common/failure.dart';
-import 'package:rextor_movie/domain/entities/movie/movie_detail.dart';
-import 'package:rextor_movie/domain/repositories/movie_repository.dart';
+import 'package:rextor/common/failure.dart';
+import 'package:rextor/domain/entities/movie/movie_detail.dart';
+import 'package:rextor/domain/repositories/movie_repository.dart';
 
 class RemovedWatchlist {
   final MovieRepository repository;

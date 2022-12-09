@@ -1,4 +1,4 @@
-import 'package:rextor_movie/data/models/series/series_table.dart';
+import 'package:rextor/data/models/series/series_table.dart';
 import 'package:sqflite/sqflite.dart';
 
 

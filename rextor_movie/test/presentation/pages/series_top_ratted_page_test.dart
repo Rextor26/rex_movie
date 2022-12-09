@@ -1,12 +1,12 @@
 import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_bloc.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_even.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_state_management.dart';
+import 'package:rextor/presentation/bloc/series/series_bloc.dart';
+import 'package:rextor/presentation/bloc/series/series_even.dart';
+import 'package:rextor/presentation/bloc/series/series_state_management.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:rextor_movie/presentation/pages/series/series_top_rated_page.dart';
+import 'package:rextor/presentation/pages/series/series_top_rated_page.dart';
 
 import '../../dummy_data/dummy_objects.dart';
 

@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:rextor_movie/data/models/movie/movie_table.dart';
+import 'package:rextor/data/models/movie/movie_table.dart';
 import 'package:sqflite/sqflite.dart';
 
 class DatabaseHelper {

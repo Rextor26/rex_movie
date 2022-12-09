@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_search.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_search_event.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_search_state_management.dart';
+import 'package:rextor/domain/usecases/series/get_series_search.dart';
+import 'package:rextor/presentation/bloc/series/series_search_event.dart';
+import 'package:rextor/presentation/bloc/series/series_search_state_management.dart';
 import 'package:rxdart/rxdart.dart';
 
 class SearchSeriesBloc extends Bloc<SearchEventSeries, SearchStateSeries> {

@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_even.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_bloc.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_state_management.dart';
-import 'package:rextor_movie/presentation/widgets/series_card.dart';
+import 'package:rextor/presentation/bloc/series/series_even.dart';
+import 'package:rextor/presentation/bloc/series/series_bloc.dart';
+import 'package:rextor/presentation/bloc/series/series_state_management.dart';
+import 'package:rextor/presentation/widgets/series_card.dart';
 import 'package:flutter/material.dart';
 
 class SeriesOnTheAirPage extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:rextor_movie/domain/entities/series/series.dart';
-import 'package:rextor_movie/presentation/pages/series/series_detail_page.dart';
+import 'package:rextor/domain/entities/series/series.dart';
+import 'package:rextor/presentation/pages/series/series_detail_page.dart';
 import 'package:flutter/material.dart';
 
 const String BASE_IMAGE_URL = 'https://image.tmdb.org/t/p/w500';

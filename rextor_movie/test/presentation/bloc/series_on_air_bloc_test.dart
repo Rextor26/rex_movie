@@ -1,13 +1,13 @@
 import 'package:dartz/dartz.dart';
 import 'package:bloc_test/bloc_test.dart';
-import 'package:rextor_movie/common/failure.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_on_air.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_even.dart';
+import 'package:rextor/common/failure.dart';
+import 'package:rextor/domain/usecases/series/get_series_on_air.dart';
+import 'package:rextor/presentation/bloc/series/series_even.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_bloc.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_state_management.dart';
+import 'package:rextor/presentation/bloc/series/series_bloc.dart';
+import 'package:rextor/presentation/bloc/series/series_state_management.dart';
 import '../../dummy_data/dummy_objects.dart';
 import 'series_list_bloc.mocks.dart';
 

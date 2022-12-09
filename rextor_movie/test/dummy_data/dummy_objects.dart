@@ -1,13 +1,13 @@
-import 'package:rextor_movie/data/models/movie/movie_genre_model.dart';
-import 'package:rextor_movie/data/models/movie/movie_table.dart';
-import 'package:rextor_movie/data/models/series/season_model.dart';
-import 'package:rextor_movie/data/models/series/series_detail_model.dart';
-import 'package:rextor_movie/data/models/series/series_table.dart';
-import 'package:rextor_movie/domain/entities/movie/genre.dart';
-import 'package:rextor_movie/domain/entities/movie/movie.dart';
-import 'package:rextor_movie/domain/entities/movie/movie_detail.dart';
-import 'package:rextor_movie/domain/entities/series/series.dart';
-import 'package:rextor_movie/domain/entities/series/series_detail.dart';
+import 'package:rextor/data/models/movie/movie_genre_model.dart';
+import 'package:rextor/data/models/movie/movie_table.dart';
+import 'package:rextor/data/models/series/season_model.dart';
+import 'package:rextor/data/models/series/series_detail_model.dart';
+import 'package:rextor/data/models/series/series_table.dart';
+import 'package:rextor/domain/entities/movie/genre.dart';
+import 'package:rextor/domain/entities/movie/movie.dart';
+import 'package:rextor/domain/entities/movie/movie_detail.dart';
+import 'package:rextor/domain/entities/series/series.dart';
+import 'package:rextor/domain/entities/series/series_detail.dart';
 
 final testMovie = Movie(
   adult: false,

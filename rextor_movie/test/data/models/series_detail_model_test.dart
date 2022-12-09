@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:rextor_movie/data/models/series/series_detail_model.dart';
+import 'package:rextor/data/models/series/series_detail_model.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../../dummy_data/dummy_objects.dart';

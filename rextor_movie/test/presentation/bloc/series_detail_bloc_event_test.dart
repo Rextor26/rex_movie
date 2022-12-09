@@ -1,4 +1,4 @@
-import 'package:rextor_movie/presentation/bloc/series/series_detail_event.dart';
+import 'package:rextor/presentation/bloc/series/series_detail_event.dart';
 import 'package:flutter_test/flutter_test.dart';
 import '../../dummy_data/dummy_objects.dart';
 

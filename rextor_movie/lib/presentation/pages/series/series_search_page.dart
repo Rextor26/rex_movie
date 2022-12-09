@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_search_bloc.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_search_event.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_search_state_management.dart';
-import 'package:rextor_movie/presentation/widgets/series_card.dart';
+import 'package:rextor/presentation/bloc/series/series_search_bloc.dart';
+import 'package:rextor/presentation/bloc/series/series_search_event.dart';
+import 'package:rextor/presentation/bloc/series/series_search_state_management.dart';
+import 'package:rextor/presentation/widgets/series_card.dart';
 import 'package:flutter/material.dart';
 class SearchSeriesPage extends StatelessWidget {
   static const initial_route = '/SearchPage_Series';

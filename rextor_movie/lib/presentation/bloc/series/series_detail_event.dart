@@ -1,7 +1,7 @@
 
 
 import 'package:equatable/equatable.dart';
-import 'package:rextor_movie/domain/entities/series/series_detail.dart';
+import 'package:rextor/domain/entities/series/series_detail.dart';
 
 abstract class SeriesDetailEvent extends Equatable {
   const SeriesDetailEvent();

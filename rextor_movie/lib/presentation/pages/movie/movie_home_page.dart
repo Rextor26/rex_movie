@@ -1,16 +1,16 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rextor_movie/domain/entities/movie/movie.dart';
-import 'package:rextor_movie/presentation/bloc/movie_page_event.dart';
-import 'package:rextor_movie/presentation/bloc/movie_page_state_management.dart';
-import 'package:rextor_movie/presentation/pages/about_page.dart';
-import 'package:rextor_movie/presentation/pages/movie/movie_detail_page.dart';
-import 'package:rextor_movie/presentation/pages/movie/movie_popular_page.dart';
-import 'package:rextor_movie/presentation/pages/movie/movie_search_page.dart';
-import 'package:rextor_movie/presentation/pages/movie/movie_top_rated_page.dart';
-import 'package:rextor_movie/presentation/pages/movie/movie_watchlist_page.dart';
-import 'package:rextor_movie/presentation/pages/series/series_page.dart';
+import 'package:rextor/domain/entities/movie/movie.dart';
+import 'package:rextor/presentation/bloc/movie_page_event.dart';
+import 'package:rextor/presentation/bloc/movie_page_state_management.dart';
+import 'package:rextor/presentation/pages/about_page.dart';
+import 'package:rextor/presentation/pages/movie/movie_detail_page.dart';
+import 'package:rextor/presentation/pages/movie/movie_popular_page.dart';
+import 'package:rextor/presentation/pages/movie/movie_search_page.dart';
+import 'package:rextor/presentation/pages/movie/movie_top_rated_page.dart';
+import 'package:rextor/presentation/pages/movie/movie_watchlist_page.dart';
+import 'package:rextor/presentation/pages/series/series_page.dart';
 import 'package:flutter/material.dart';
 
 import '../../bloc/movie_page_bloc.dart';

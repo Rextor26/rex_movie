@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:rextor_movie/data/models/movie/movie_model.dart';
-import 'package:rextor_movie/data/models/movie/movie_response.dart';
+import 'package:rextor/data/models/movie/movie_model.dart';
+import 'package:rextor/data/models/movie/movie_response.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../../json_reader.dart';

@@ -1,5 +1,5 @@
 
-import 'package:rextor_movie/data/models/series/series_model.dart';
+import 'package:rextor/data/models/series/series_model.dart';
 import 'package:equatable/equatable.dart';
 
 class ResponseSeries extends Equatable{

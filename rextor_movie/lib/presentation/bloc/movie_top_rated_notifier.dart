@@ -1,6 +1,6 @@
-import 'package:rextor_movie/common/state_enum.dart';
-import 'package:rextor_movie/domain/entities/movie/movie.dart';
-import 'package:rextor_movie/domain/usecases/movie/get_movie_top_rated.dart';
+import 'package:rextor/common/state_enum.dart';
+import 'package:rextor/domain/entities/movie/movie.dart';
+import 'package:rextor/domain/usecases/movie/get_movie_top_rated.dart';
 import 'package:flutter/foundation.dart';
 
 class TopRatedMoviesNotifier extends ChangeNotifier {

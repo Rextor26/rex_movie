@@ -1,12 +1,12 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_on_air.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_popular.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_recommendation.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_today.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_top_rated.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_watchlist.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_even.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_state_management.dart';
+import 'package:rextor/domain/usecases/series/get_series_on_air.dart';
+import 'package:rextor/domain/usecases/series/get_series_popular.dart';
+import 'package:rextor/domain/usecases/series/get_series_recommendation.dart';
+import 'package:rextor/domain/usecases/series/get_series_today.dart';
+import 'package:rextor/domain/usecases/series/get_series_top_rated.dart';
+import 'package:rextor/domain/usecases/series/get_series_watchlist.dart';
+import 'package:rextor/presentation/bloc/series/series_even.dart';
+import 'package:rextor/presentation/bloc/series/series_state_management.dart';
 
 
 class seriesPopularBloc extends Bloc<SeriesEvent, SeriesStateManagement> {

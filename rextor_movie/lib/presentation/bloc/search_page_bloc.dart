@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rextor_movie/presentation/bloc/search_page_event.dart';
-import 'package:rextor_movie/presentation/bloc/search_page_state_management.dart';
+import 'package:rextor/presentation/bloc/search_page_event.dart';
+import 'package:rextor/presentation/bloc/search_page_state_management.dart';
 import 'package:rxdart/rxdart.dart';
 
 import '../../domain/usecases/movie/get_movie_search.dart';

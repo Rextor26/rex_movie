@@ -1,4 +1,4 @@
-import 'package:rextor_movie/data/models/movie/movie_model.dart';
+import 'package:rextor/data/models/movie/movie_model.dart';
 import 'package:equatable/equatable.dart';
 
 class MovieResponse extends Equatable {

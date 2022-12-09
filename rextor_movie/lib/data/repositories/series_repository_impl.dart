@@ -4,14 +4,14 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:dartz/dartz.dart';
-import 'package:rextor_movie/common/exception.dart';
-import 'package:rextor_movie/common/failure.dart';
-import 'package:rextor_movie/data/datasources/series_local_data_source.dart';
-import 'package:rextor_movie/data/datasources/remote_data_source.dart';
-import 'package:rextor_movie/data/models/series/series_table.dart';
-import 'package:rextor_movie/domain/entities/series/series.dart';
-import 'package:rextor_movie/domain/entities/series/series_detail.dart';
-import 'package:rextor_movie/domain/repositories/series_repository.dart';
+import 'package:rextor/common/exception.dart';
+import 'package:rextor/common/failure.dart';
+import 'package:rextor/data/datasources/series_local_data_source.dart';
+import 'package:rextor/data/datasources/remote_data_source.dart';
+import 'package:rextor/data/models/series/series_table.dart';
+import 'package:rextor/domain/entities/series/series.dart';
+import 'package:rextor/domain/entities/series/series_detail.dart';
+import 'package:rextor/domain/repositories/series_repository.dart';
 
 class RepositorySeriesImpl implements RepositorySeries{
   final RemoteDataSource remoteDataSource;

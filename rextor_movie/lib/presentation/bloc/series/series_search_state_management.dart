@@ -1,7 +1,7 @@
 
 
 import 'package:equatable/equatable.dart';
-import 'package:rextor_movie/domain/entities/series/series.dart';
+import 'package:rextor/domain/entities/series/series.dart';
 
 abstract class SearchStateSeries extends Equatable {
   const SearchStateSeries();

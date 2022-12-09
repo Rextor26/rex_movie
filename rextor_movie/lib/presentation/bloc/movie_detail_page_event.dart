@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:rextor_movie/domain/entities/movie/movie_detail.dart';
+import 'package:rextor/domain/entities/movie/movie_detail.dart';
 
 abstract class MovieDetailEvent extends Equatable {
   const MovieDetailEvent();

@@ -1,4 +1,4 @@
-package com.dicoding.rextor_movie
+package com.dicoding.rextor
 
 import io.flutter.embedding.android.FlutterActivity
 

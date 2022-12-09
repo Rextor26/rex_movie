@@ -1,9 +1,9 @@
 
 // ignore_for_file: must_be_immutable
 
-import 'package:rextor_movie/data/models/movie/movie_genre_model.dart';
-import 'package:rextor_movie/data/models/series/season_model.dart';
-import 'package:rextor_movie/domain/entities/series/series_detail.dart';
+import 'package:rextor/data/models/movie/movie_genre_model.dart';
+import 'package:rextor/data/models/series/season_model.dart';
+import 'package:rextor/domain/entities/series/series_detail.dart';
 import 'package:equatable/equatable.dart';
 
 class SeriesDetailResponse extends Equatable {

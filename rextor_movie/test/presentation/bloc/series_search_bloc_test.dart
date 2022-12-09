@@ -1,11 +1,11 @@
 import 'package:bloc_test/bloc_test.dart';
 import 'package:dartz/dartz.dart';
-import 'package:rextor_movie/common/failure.dart';
-import 'package:rextor_movie/domain/entities/series/series.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_search_bloc.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_search_event.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_search_state_management.dart';
-import 'package:rextor_movie/presentation/pages/series/series_search_page.dart';
+import 'package:rextor/common/failure.dart';
+import 'package:rextor/domain/entities/series/series.dart';
+import 'package:rextor/presentation/bloc/series/series_search_bloc.dart';
+import 'package:rextor/presentation/bloc/series/series_search_event.dart';
+import 'package:rextor/presentation/bloc/series/series_search_state_management.dart';
+import 'package:rextor/presentation/pages/series/series_search_page.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';

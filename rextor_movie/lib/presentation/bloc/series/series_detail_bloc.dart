@@ -1,12 +1,12 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rextor_movie/common/state_enum.dart';
-import 'package:rextor_movie/domain/entities/series/series_detail.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_detail.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_remove_series_watchlist.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_save_watchlist.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_watchlist_status.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_detail_event.dart';
-import 'package:rextor_movie/presentation/bloc/series/series_detail_state_management.dart';
+import 'package:rextor/common/state_enum.dart';
+import 'package:rextor/domain/entities/series/series_detail.dart';
+import 'package:rextor/domain/usecases/series/get_series_detail.dart';
+import 'package:rextor/domain/usecases/series/get_series_remove_series_watchlist.dart';
+import 'package:rextor/domain/usecases/series/get_series_save_watchlist.dart';
+import 'package:rextor/domain/usecases/series/get_series_watchlist_status.dart';
+import 'package:rextor/presentation/bloc/series/series_detail_event.dart';
+import 'package:rextor/presentation/bloc/series/series_detail_state_management.dart';
 
 
 

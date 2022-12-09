@@ -1,11 +1,11 @@
-import 'package:rextor_movie/common/state_enum.dart';
-import 'package:rextor_movie/domain/entities/series/series.dart';
-import 'package:rextor_movie/domain/entities/series/series_detail.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_recommendation.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_detail.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_watchlist_status.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_remove_series_watchlist.dart';
-import 'package:rextor_movie/domain/usecases/series/get_series_save_watchlist.dart';
+import 'package:rextor/common/state_enum.dart';
+import 'package:rextor/domain/entities/series/series.dart';
+import 'package:rextor/domain/entities/series/series_detail.dart';
+import 'package:rextor/domain/usecases/series/get_series_recommendation.dart';
+import 'package:rextor/domain/usecases/series/get_series_detail.dart';
+import 'package:rextor/domain/usecases/series/get_series_watchlist_status.dart';
+import 'package:rextor/domain/usecases/series/get_series_remove_series_watchlist.dart';
+import 'package:rextor/domain/usecases/series/get_series_save_watchlist.dart';
 import 'package:flutter/cupertino.dart';
 
 class DetailSeriesNotifier extends ChangeNotifier{

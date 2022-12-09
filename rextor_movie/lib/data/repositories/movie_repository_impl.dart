@@ -1,14 +1,14 @@
 import 'dart:io';
 
 import 'package:dartz/dartz.dart';
-import 'package:rextor_movie/data/datasources/movie_local_data_source.dart';
-import 'package:rextor_movie/data/datasources/remote_data_source.dart';
-import 'package:rextor_movie/data/models/movie/movie_table.dart';
-import 'package:rextor_movie/domain/entities/movie/movie.dart';
-import 'package:rextor_movie/domain/entities/movie/movie_detail.dart';
-import 'package:rextor_movie/domain/repositories/movie_repository.dart';
-import 'package:rextor_movie/common/exception.dart';
-import 'package:rextor_movie/common/failure.dart';
+import 'package:rextor/data/datasources/movie_local_data_source.dart';
+import 'package:rextor/data/datasources/remote_data_source.dart';
+import 'package:rextor/data/models/movie/movie_table.dart';
+import 'package:rextor/domain/entities/movie/movie.dart';
+import 'package:rextor/domain/entities/movie/movie_detail.dart';
+import 'package:rextor/domain/repositories/movie_repository.dart';
+import 'package:rextor/common/exception.dart';
+import 'package:rextor/common/failure.dart';
 
 class MovieRepositoryImpl implements MovieRepository {
   final RemoteDataSource remoteDataSource;
