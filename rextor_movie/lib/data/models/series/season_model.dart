@@ -1,0 +1,59 @@
+// ignore_for_file: must_be_immutable
+
+import 'package:rextor_movie/domain/entities/series/season.dart';
+import 'package:equatable/equatable.dart';
+
+class SeasonModel extends Equatable {
+
+  int episodeCount;
+  int id;
+  String name;
+  String overview;
+  String? posterPath;
+  int seasonNumber;
+  SeasonModel({
+    required this.episodeCount,
+    required this.id,
+    required this.name,
+    required this.overview,
+    required this.posterPath,
+    required this.seasonNumber,
+  });
+
+  @override
+  List<Object?> get props => [
+    id,
+    episodeCount,
+    name,
+    overview,
+    posterPath,
+    seasonNumber,
+  ];
+  Season toEntity() => Season(
+      episodeCount: episodeCount,
+      id: id,
+      name: name,
+      overview: overview,
+      posterPath: posterPath,
+      seasonNumber: seasonNumber
+  );
+  factory SeasonModel.fromJson(Map<String, dynamic> json) => SeasonModel(
+    episodeCount: json["episode_count"],
+    id: json["id"],
+    name: json["name"],
+    overview: json["overview"],
+    posterPath: json["poster_path"],
+    seasonNumber: json["season_number"],
+  );
+
+  Map<String, dynamic> toJson() => {
+    "episode_count": episodeCount,
+    "id": id,
+    "name": name,
+    "overview": overview,
+    "poster_path": posterPath,
+    "season_number": seasonNumber,
+  };
+
+
+}
